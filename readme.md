@@ -13,14 +13,14 @@ Serviços: Descrição detalhada dos serviços que oferecemos, com exemplos de p
 Faq: Informações e Soluções para os problemas mais comuns.
 
 # Tecnologias Utilizadas
-HTML5  
+**HTML5**  
 
-CSS3  
+**CSS3**  
 
-JavaScript  
+**JavaScript**  
 
-Bootstrap  
+**Bootstrap**  
 
-jQuery  
+**jQuery**  
 
-Codeigniter3
+*Codeigniter3**
