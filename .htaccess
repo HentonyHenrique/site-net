@@ -1,0 +1,9 @@
+# Código para retirar o 'index.php' da url e acessar apenas os controller
+
+RewriteEngine on
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://www.net1informatica.com.br/$1 [R,L]
+RewriteCond $1 !^(index\.php|resources|robots\.txt)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L,QSA]
